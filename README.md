@@ -14,5 +14,6 @@ Scripts:
   merge.sh - This shell script combines reads from 2 lands of a novaseq S2 flowcell, performs pre-trimming fastqc, trims NEBNext adapters with Cutadapt, and runs post-trimming fastqc.
   
   index_align.sh - This shell script prepares bwa indices and aligns MOA-seq reads.
-  
+
+compareReplicates.sh - This shell script prepares 1kb-binned Pearson correlation matrices of genomic coverages for all control and flood replicates within each genotype. Resulting replicate-replicate correlations are then visualized as sample-sample distance heatmaps AND PCA plots with attached Scree plots (as .pdfs) 
   
