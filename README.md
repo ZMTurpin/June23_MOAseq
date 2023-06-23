@@ -17,3 +17,4 @@ Scripts:
 
 compareReplicates.sh - This shell script prepares 1kb-binned Pearson correlation matrices of genomic coverages for all control and flood replicates within each genotype. Resulting replicate-replicate correlations are then visualized as sample-sample distance heatmaps AND PCA plots with attached Scree plots (as .pdfs) 
   
+coverage_normalize_june22.sh - This shell script prepares 20bp window files for each of my 4 genome assemblies, counts overlapping reads on each interval, normalizes to rpm (#raw reads per million, not #aligned reads), and converts resulting coverage files "bedgraph" to browser-accessible bigwig format).
